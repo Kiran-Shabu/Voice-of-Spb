@@ -1,0 +1,27 @@
+[
+    {
+        "no" : "1",
+        "name": "Vidhyadharan Master",
+        "imagePath": "images\\artists\\vidyadharan-master.jpg"
+    },
+    {
+        "no" : "2",
+        "name": "Krishna Chandran",
+        "imagePath": "images\\artists\\krishna-chandran.jpg"
+    },
+    {
+        "no" : "3",
+        "name": "Lathika Teacher",
+        "imagePath": "images\\artists\\latika.jpg"
+    },
+    {
+        "no" : "4",
+        "name": "Unni Menon",
+        "imagePath": "images\\artists\\um.jpg"
+    },
+    {
+        "no" : "5",
+        "name": "Vijay Yesudas",
+        "imagePath": "images\\artists\\vy.jpeg.jpg"
+    }
+]

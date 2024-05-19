@@ -1,0 +1,50 @@
+[
+    {
+        "no" : "1",
+        "name": "S P Charan",
+        "role": "Patron",
+        "imagePath": "images/officeBarrers/charan.jpeg"
+    },
+    {
+        "no" : "2",
+        "name": "Bhavana Teacher ",
+        "role": "Patron",
+        "imagePath": "images/officeBarrers/bhavana_radhakrishnan.jpg"
+    },
+    {
+        "no" : "3",
+        "name": "Shaju Kilikolloor",
+        "role": "Founding Chairman",
+        "imagePath": "images/officeBarrers/shaju.jpg"
+    },
+    {
+        "no" : "4",
+        "name": "Murukan M",
+        "role": "President",
+        "imagePath": "images/officeBarrers/murukan.jpg"
+    },
+    {
+        "no" : "5",
+        "name": "Cyril M",
+        "role": "Secretary",
+        "imagePath": "images/officeBarrers/Cyril.jpg"
+    },
+   
+    {
+        "no" : "6",
+        "name": "Udaya Chandran",
+        "role": "Treasurer",
+        "imagePath": "images/officeBarrers/udayan.jpg"
+    },
+   
+   
+   
+    {
+        "no" : "7",
+        "name": "Adv A K Savad",
+        "role": "Legal Advisor",
+        "imagePath": "images/officeBarrers/savad.jpg"
+    }
+   
+
+]

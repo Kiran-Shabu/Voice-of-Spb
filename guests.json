@@ -1,0 +1,81 @@
+[
+    {
+        "no" : "1",
+        "name": "Vijay Yesudas",
+        "role": "Playback singer",
+        "image": "images/artists/vjy.jpg"
+    },
+    {
+        "no" : "2",
+        "name": "Unni Menon",
+        "role": "Playback singer",
+        "image": "images/artists/um.jpg"
+    },
+    {
+        "no" : "3",
+        "name": "Vidyadharan Master",
+        "role": "Playback singer",
+        "image": "images/artists/vidyadharan-master.jpg"
+    },
+    {
+        "no" : "4",
+        "name": "Sharreth",
+        "role": "Music Composer & Playback singer",
+        "image": "images/artists/sarr.jpeg.jpg"
+    },
+    {
+        "no" : "5",
+        "name": "Latika",
+        "role": "Playback singer",
+        "image": "images/artists/latika.jpg"
+    },
+    {
+        "no" : "6",
+        "name": "Krishna Chandran",
+        "role": "Playback singer",
+        "image": "images/artists/krishna-chandran.jpg"
+    },
+    {
+        "no" : "7",
+        "name": "Rajalakshmy",
+        "role": "Playback singer",
+        "image": "images/artists/rajalakshmy.jpg"
+    },
+    {
+        "no" : "8",
+        "name": "Aparna Rajeev",
+        "role": "Playback singer",
+        "image": "images/artists/aparna-rajeev.jpg"
+    },
+    {
+        "no" : "9",
+        "name": "Chitra Arun",
+        "role": "Playback singer",
+        "image": "images/artists/chitra-arun.jpg"
+    },
+    {
+        "no" : "10",
+        "name": "Ravi Sankar",
+        "role": "Playback singer",
+        "image": "images/artists/Ravi-Sankar.jpg"
+    },
+    {
+        "no" : "11",
+        "name": "Manakad Gopi",
+        "role": "Playback singer",
+        "image": "images/artists/manakad-gopi.jpg"
+    },
+    {
+        "no" : "12",
+        "name": "Sobha Sharath",
+        "role": "Playback singer",
+        "image": "images/artists/Sobha-Sarath.jpg"
+    },
+   
+    {
+        "no" : "13",
+        "name": "Devika Udayan",
+        "role": "Singer",
+        "image": "images/artists/Devika-Udayan.jpg"
+    }
+]
