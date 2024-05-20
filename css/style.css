@@ -320,6 +320,12 @@ strong {
   color: var(--white-color);
 }
 
+/*---------------------------------------
+  Audio             
+-----------------------------------------*/
+/* audio {
+  display: none; 
+} */
 
 /*---------------------------------------
   VIDEO              
@@ -917,16 +923,27 @@ strong {
   width: 200px; 
   margin-right: 10px; 
   text-align: center; 
+  height: 230px;
+}
+
+.office-barrier-image-container{
+  width: auto;
+  height: 140px;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Styles for .office-barrier-image */
 .office-barrier-image {
   width: 100%;
   height: auto; 
-  border-radius: 7px;
+  left: 0;
+  position: absolute;
 }
 /* Styles for .office-barrier-text */
 .office-barrier-text .name {
+  margin-top: 10px;
   padding: 5px; 
   color: white;
   font-size: 15px;
@@ -935,7 +952,10 @@ strong {
 .office-barrier-text .role {
   color: white;
   font-size: 12px; 
+ 
 }
+
+
 
 /* Responsive styles for mobile screens */
 @media (max-width: 767px) {
@@ -1030,6 +1050,15 @@ strong {
   overflow: hidden;
   background-position: center;
   background-size: cover;
+}
+.vintage-house img{
+  height: 120px;
+  width: auto;
+  margin-right: 20px;
+}
+.powered-by{
+  color: #f0f8ff;
+  font-weight: bold;
 }
 
 @keyframes spinAround {
@@ -1126,6 +1155,10 @@ strong {
   }
   .spb-f-c-s{
     font-size: 13px;
+  }
+  .vintage-house img{
+    height: 80px;
+    width: auto;
   }
 }
 

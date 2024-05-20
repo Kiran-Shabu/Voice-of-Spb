@@ -27,6 +27,9 @@ function displayOfficeBarriers() {
                 const itemDiv = document.createElement('div');
                 itemDiv.classList.add('office-barrier-item');
 
+                const imgdiv = document.createElement('div')
+                imgdiv.classList.add('office-barrier-image-container')
+
                 // Create image element
                 const img = document.createElement('img');
                 img.src = item.imagePath;
@@ -51,8 +54,12 @@ function displayOfficeBarriers() {
                 textDiv.appendChild(nameDiv);
                 textDiv.appendChild(roleDiv);
 
+                imgdiv.appendChild(img);
+
+
                 // Append image and text to item div
-                itemDiv.appendChild(img);
+                // itemDiv.appendChild(img);
+                itemDiv.appendChild(imgdiv);
                 itemDiv.appendChild(textDiv);
 
                 // Append item div to the container
