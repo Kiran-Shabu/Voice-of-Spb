@@ -803,6 +803,64 @@ strong {
 }
 
 /*---------------------------------------
+  Luckdraw             
+-----------------------------------------*/
+/* .Luckuydraw-section {
+  background-color: #985b39;
+  padding: 60px 0;
+  color: #fff; 
+}
+
+.Luckuydraw-section img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for mobile screens */
+/* @media (max-width: 767px) {
+  .Luckuydraw-section img {
+      width: 100%; 
+      margin-bottom: 15px; 
+  }
+}  */
+
+.Luckuydraw-section {
+  background-color: #985b39;
+  padding: 60px 0;
+  color: #fff; /* Adjust text color if necessary for readability */
+}
+
+.Luckuydraw-section h2, .Luckuydraw-section h5 {
+  color: #fff; /* Ensure headers are readable against the background */
+}
+
+.Luckuydraw-section .luckydraw-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px; /* Limit the maximum width of the lucky draw image */
+}
+
+.Luckuydraw-section .prize-image {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Limit the maximum width of the images */
+}
+
+.Luckuydraw-section .sponsor-image{
+  width: 100%;
+  height: auto;
+  max-width: 200px; 
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+  .Luckuydraw-section img {
+    margin-bottom: 15px; /* Add spacing between images */
+  }
+}
+
+
+/*---------------------------------------
   PRICING              
 -----------------------------------------*/
 .pricing-thumb {
@@ -897,6 +955,31 @@ strong {
   border-color: transparent;
 }
 
+
+/*---------------------------------------
+  Partner             
+-----------------------------------------*/
+.partners-section {
+  
+  padding: 30px 0;
+  color: #fff; /* Adjust text color if necessary for readability */
+}
+
+.partners-section h2, .partners-section h3 {
+  color: #000000; /* Ensure headers are readable against the background */
+}
+
+.partners-section img {
+  width: 50%;
+  height: auto;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+  .partners-section img {
+    margin-bottom: 15px; /* Add spacing between images */
+  }
+}
 
 /*---------------------------------------
   SITE FOOTER              

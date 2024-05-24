@@ -31,10 +31,12 @@
 
 <body>
    
-    <audio id="myAudio" autoplay>
-        <source src="./music/Ilaya Nila Pozhigirathu.mp3" type="audio/mpeg">
+    <!-- <audio id="myAudio" autoplay>
+        <source src="./music/vasantham.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
-    </audio>
+    </audio> -->
+    <audio id="audio-hero" src="./music/vasantham.mp3"></audio>
+    <audio id="audio-content" src="./music/vasantham-bg-music.mp3"></audio>
     <main>
 
         <header class="site-header">
@@ -60,7 +62,7 @@
                     Legends Voice
                 </a>
 
-                <a href="" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+                <a href="https://forms.gle/9h4kBrW1wQW6CxvSA" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,30 +129,6 @@
                                 C Kesavan Memorial Townhall, Kollam 
                             </h5>
                         </div>
-
-                        <!-- <div class="social-share">
-                            <ul class="social-icon d-flex align-items-center justify-content-center">
-                                <span class="text-white me-3">Share:</span>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
-                                        <span class="bi-facebook"></span>
-                                    </a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
-                                        <span class="bi-twitter"></span>
-                                    </a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link">
-                                        <span class="bi-instagram"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -350,9 +328,8 @@
                         <li class="pricing-list-item">Last date for registration  : 30 june 2024</li>
                     </ul>
 
-                    <button class="btn btn-primary mt-4" onclick="location.href='';">
+                    <button class="btn btn-primary mt-4" onclick="location.href='https://forms.gle/Xqx3zbyM7B6rnWZo9'">
                         <span>Register</span>
-                        
                     </button>
                     
                 </div>
@@ -381,7 +358,7 @@
 
                        
                     </ul>
-                    <button class="btn btn-primary mt-4" onclick="location.href='';">
+                    <button class="btn btn-primary mt-4" onclick="location.href='https://forms.gle/9h4kBrW1wQW6CxvSA';">
                         <span>Book now</span>
                         
                     </button>
@@ -393,8 +370,11 @@
     </div>
 </section>
 <!-- --------------------booking section end-------------------- -->
+
+
+
 <!-- ----------------------------- honoring  section start ---------------------------- -->
-<section class="honoring-section section-padding" id="section_5">
+<section class="honoring-section section-padding" id="section_6">
     <div class="container">  
         <!-- Add new section for displaying images -->
         <div class="row justify-content-center">
@@ -407,9 +387,37 @@
         </div>
     </div>
 </section>
-
-
 <!-- -----------------------honoring section end------------------------- -->
+
+
+
+<!-- ------------------Luckuydraw-------------------- -->
+
+<section class="Luckuydraw-section section-padding" id="section_7">
+    <div class="container">
+        <div class="row justify-content-center">
+            
+            <div class="row" id="Luckuydraw-container">
+                <div class="col-md-6 text-center">
+                    <img src="./images/clipart3851543.png" alt="Lucky Draw Image" class="img-fluid luckydraw-image">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-12 text-center mb-3">
+                            <!-- <h3>Prize</h3> -->
+                            <img src="./images/RK_ Logo with earrings -2.jpg" alt="Prize Image" class="img-fluid prize-image">
+                        </div>
+                        <div class="col-12 text-center">
+                            <h5>Sponsored by</h5>
+                            <img src="./images/RK_ Logo with earrings -1.jpg" alt="Sponsor Logos" class="img-fluid sponsor-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------Luckuydraw end-------------------- -->
 
 
 <!-- ----------------------------- Guests section start ---------------------------- -->
@@ -428,6 +436,28 @@
 <!-- -----------------------guest section end------------------------- -->
 
 
+
+<!-- -----------------------Partner section start------------------------- -->
+<section class="partners-section section-padding" id="section_8">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">Meet Our Partners</h2>
+            </div>
+            <div id="partner-container" class="row justify-content-center">
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <h5>Hotel Partner</h5>
+                    <img src="./images/dfort Logo.jpg" alt="Partner 1 Image" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-center">
+                    <h5>Audio Partner</h5>
+                    <img src="./images/radio benziger.jpg" alt="Partner 2 Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -----------------------Partner section end------------------------- -->
 
 <!-- -------------------last section start--------- -->
         <!-- <section class="contact-section section-padding" id="section_6">
@@ -624,7 +654,45 @@
         </div>
     </footer>
 <!-- --------------------------------Footer end---------------------------------------------- -->
-   
+   <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+    const heroAudio = document.getElementById('audio-hero');
+    const contentAudio = document.getElementById('audio-content');
+
+    function playAudio(audioElement) {
+        if (!audioElement.paused) {
+            return;
+        }
+        heroAudio.pause();
+        contentAudio.pause();
+        audioElement.play();
+    }
+
+    function checkSectionInView() {
+        const heroSection = document.getElementById('section_1');
+        const contentSection = document.getElementById('section_2');
+
+        const heroRect = heroSection.getBoundingClientRect();
+        const contentRect = contentSection.getBoundingClientRect();
+
+        if (heroRect.top >= 0 && heroRect.bottom <= window.innerHeight) {
+            playAudio(heroAudio);
+        } else if (contentRect.top >= 0 && contentRect.bottom <= window.innerHeight) {
+            playAudio(contentAudio);
+        }
+    }
+
+    // Play initial audio for the first section
+    playAudio(heroAudio);
+
+    // Listen for scroll events to change audio
+    window.addEventListener('scroll', checkSectionInView);
+});
+
+   </script>
+
+
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
